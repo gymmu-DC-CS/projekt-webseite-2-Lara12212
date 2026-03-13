@@ -1,0 +1,19 @@
+<style>
+.info{
+display: flex;
+align-items: flex-start;
+gab: 20px;
+}
+
+.text{
+width: 70%;
+}
+
+.bild{
+width: 30%;
+}
+
+.bild img{
+width: 100%;
+}
+</style>
