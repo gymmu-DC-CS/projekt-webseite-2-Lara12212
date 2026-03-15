@@ -18,6 +18,9 @@ Quellen von der Geschichte von Schweden:
 https://de.wikipedia.org/wiki/Schweden#Geschichte
 https://www.britannica.com/place/Sweden
 
+Quellen für die Geographie und die Natur:
+https://sweden.se/nature
+https://de.wikipedia.org/wiki/Schweden#Geografie
 
 
 
