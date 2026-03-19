@@ -1,4 +1,4 @@
-<style>
+
 .info{
 display: flex;
 align-items: flex-start;
@@ -26,9 +26,8 @@ p {
     margin-top: 10px;
     margin-bottom: 15px;
 }
-</style>
 
-<style>
+
 table {
     border-collapse: collapse;
     width: 100%;
@@ -49,4 +48,8 @@ td {
     padding: 10px;
     border: 1px solid #999;
 }
-</style>
+
+
+#VideoSchweden {
+    width: 775px;
+}

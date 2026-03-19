@@ -4,7 +4,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Schweden</title>
+<link rel="stylesheet" href="style.css">
+
 <style>
+
+html{
+scroll-behavior:smooth;
+}
+
+
 body {
     background-color: #f2f2f2; 
     font-family: Arial, sans-serif; 
@@ -26,13 +34,22 @@ max-width: 600px;
 width: 200px;
 height: 250px;
 display: block;
+border-radius:10px;
+transition:0.3s;
 }
 
+.bild img:hover{
+transform:scale(1.05);
+}
 
 h3 {
-    margin-top: 30px;
-    margin-bottom: 15px;
+margin-top: 30px;
+margin-bottom: 15px;
+background:#d0e1f9;
+padding:10px;
+border-radius:8px;
 }
+
 
 p {
     margin-top: 10px;
@@ -59,6 +76,66 @@ td {
     padding: 10px;
     border: 1px solid #999;
 }
+
+ol a{
+
+text-decoration:none;
+
+color:black;
+
+font-weight:bold;
+
+}
+
+ol a:hover{
+
+color:#005293;
+
+}
+
+.funfacts-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.funfact-box {
+    background-color: #666;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+    transition: transform 0.3s, background-color 0.3s;
+    font-weight: bold;
+}
+
+.funfact-box:hover {
+    transform: translateY(-5px);
+    background-color: #888;
+}
+
+.funfact-emoji {
+    font-size: 1.5em;
+    margin-right: 8px;
+}
+
+.essen-gallery {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+  padding: 10px 0;
+}
+
+.essen-gallery img {
+  height: 150px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.essen-gallery img:hover {
+  transform: scale(1.1);
+}
 </style>
 
 </head>
@@ -68,22 +145,35 @@ td {
 
 <h2>Inhaltsverzeichnis:</h2>
 <ol>
-    <li> Allgemeine Informationen </li>
-    <li> Steckbrief </li>
-    <li> Geschichte </li>
-    <li> Geografie und Natur </li>
-    <li> Klima </li>
-    <li> Bevölkerung und Gesellschaft</li>
-    <li> Essen und Spezialitäten</li>
-    <li> Kultur und Traditionen </li>
-    <li> Wirtschaft und Innovation </li>
-    <li> Tourismus und Sehenswürdigkeiten </li>
-    <li>Fun Facts</li>
-    </ol>
+    
+<li><a href="#info">Allgemeine Informationen</a></li>
 
-<h3> 1. Allgemeine Informationen </h3>
+<li><a href="#steckbrief">Steckbrief</a></li>
+
+<li><a href="#geschichte">Geschichte</a></li>
+
+<li><a href="#natur">Geografie und Natur</a></li>
+
+<li><a href="#klima">Klima</a></li>
+
+<li><a href="#bevoelkerung">Bevölkerung und Gesellschaft</a></li>
+
+<li><a href="#essen">Essen und Spezialitäten</a></li>
+
+<li><a href="#kultur">Kultur und Traditionen</a></li>
+
+<li><a href="#wirtschaft">Wirtschaft und Innovation</a></li>
+
+<li><a href="#tourismus">Tourismus und Sehenswürdigkeiten</a></li>
+
+<li><a href="#funfacts">Fun Facts</a></li>
+
+</ol>
+
+<h3 id="info">1. Allgemeine Informationen</h3>
 <div class="info">
-    <div class="text">
+<div class="text">
+
 <p>
 Schweden ist eines der grössten und modernsten Länder Europas.<br> 
 Es liegt im Norden des Kontinents und gehört zur Region Skandinavien.<br>
@@ -104,7 +194,7 @@ weltweit. <br>
     </div>
 </div>
 
-<h3> 2. Steckbrief </h3>
+<h3 id="steckbrief">2. Steckbrief</h3>
 <div class="info">
     <div class="text">
 <p>
@@ -127,7 +217,8 @@ weltweit. <br>
     </div>
 </div>
 
-<h3> 3. Geschichte </h3>
+<h3 id="geschichte">3. Geschichte</h3>
+
 <p>
 Die Geschichte Schwedens reicht weit zurück bis in die Zeit der Wikinger.<br>
 Zwischen etwa 800 und 1050 nach Christus waren die Wikinger bekannte Seefahrer,<br>
@@ -140,7 +231,8 @@ Das Land blieb sowohl im Ersten als auch im Zweiten Weltkrieg neutral. Heute ist
 bekannt für seine Friedenspolitik und seine Beteiligung an internationalen Organisationen. <br>
 </p>
 
-<h3> 4. Geografie und Natur </h3>
+<h3 id="natur">4. Geografie und Natur</h3>
+
 <p>
 Die Landschaft Schwedens ist sehr abwechslungsreich. Im Süden findet man vor allem <br>
 Landwirtschaft und grössere Städte. Der Norden hingegen ist geprägt von grossen Wäldern,<br>
@@ -153,7 +245,15 @@ ist das sogenannte Jedermannsrecht. Dieses erlaubt allen Menschen, sich frei in 
 zu bewegen, solange sie respektvoll mit der Umwelt umgehen. <br>
 </p>
 
-<h3> 5. Das Klima </h3>
+<div style="text-align:center;">
+  <video width="750" controls autoplay muted 
+         style="border-radius:15px; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+    <source src="Video_Schweden_LZ.mp4" type="video/mp4">
+  </video>
+</div>
+
+<h3 id="klima">5. Das Klima</h3>
+
 <p>
 Aufgrund seiner großen Nord-Süd-Ausdehnung hat Schweden verschiedene Klimazonen.<br>
 <br>
@@ -211,7 +311,112 @@ spektakuläre Polarlichter am Himmel beobachten.
     </tr>
 </table>
 
+<h3 id="bevoelkerung">6. Bevölkerung und Gesellschaft</h3>
 
+<P>
+Die schwedische Gesellschaft gilt als sehr modern und offen. Gleichberechtigung <br>
+zwischen Männern und Frauen ist ein zentraler Wert. Auch Themen wie Umweltschutz <br>
+und soziale Gerechtigkeit sind sehr wichtig. Der Staat bietet ein starkes Sozialsystem. <br>
+Dazu gehören eine gute Gesundheitsversorgung, kostenlose Schulbildung und Unterstützung <br>
+für Familien. Eltern erhalten beispielsweise lange Elternzeit nach der Geburt eines Kindes. <br>
+Viele Schweden legen grossen Wert auf ein ausgeglichenes Leben zwischen Arbeit und Freizeit. <br>
+Dieses Prinzip nennt man oft Work-Life-Balance. Die Menschen gelten allgemein als eher <br>
+ruhig, höflich und respektvoll. Pünktlichkeit und Zuverlässigkeit sind ebenfalls wichtige <br>
+Werte im Alltag. <br>
+
+</P>
+
+<h3 id="essen"> 7. Essen und Spezialitäten</h3> 
+
+<p>
+Die schwedische Küche basiert stark auf einfachen und natürlichen Zutaten. <br>
+Besonders wichtig sind Fisch, Kartoffeln und Fleisch. Auch Beeren und Pilze spielen eine grosse <br>
+Rolle, da viele Menschen diese selbst in der Natur sammeln.  <br>
+Das bekannteste Gericht sind die Köttbullar, kleine Fleischbällchen, die traditionell mit  <br>
+Kartoffelpüree, Rahmsauce und Preiselbeeren serviert werden. Auch eingelegter Lachs, sogenannter  <br>
+Gravlax, ist sehr beliebt.  <br>
+Eine besonders wichtige Tradition ist die sogenannte Fika. Dabei handelt es sich um eine  <br>
+Kaffeepause, die oft mit Gebäck wie Zimtschnecken verbunden ist. Diese Pause dient nicht nur der  <br>
+Erholung, sondern auch dem sozialen Austausch.  <br>
+
+<h4>Beliebte Gerichte</h4>
+<div class="essen-gallery">
+  <div class="essen-item">
+    <img src="Köttbullar_Schweden_LZ.webp" alt="Köttbullar">
+    <p>Köttbullar</p>
+  </div>
+  <div class="essen-item">
+    <img src="Gravlax_Schweden_LZ.jpg" alt="Gravlax">
+    <p>Gravlax</p>
+  </div>
+  <div class="essen-item">
+    <img src="Fika Gebäck_Schweden_LZ.jpg" alt="Fika Gebäck">
+    <p>Fika Gebäck</p>
+  </div>
+</div>
+
+
+</p>
+ 
+<h3 id="kultur"> 8.Kultur und Traditionen</h3> 
+
+<p>
+Eine der wichtigsten Traditionen in Schweden ist das Mittsommerfest. <br>
+Dieses Fest wird im Juni gefeiert und symbolisiert den Beginn des Sommers.- <br>
+Die Menschen tanzen um einen geschmückten Maibaum, tragen Blumenkränze und feiern gemeinsam <br>
+mit Familie und Freunden. <br>
+Ein weiteres wichtiges Fest ist das Luciafest im Dezember. Dieses Fest symbolisiert Licht in <br>
+der dunklen Winterzeit. Kinder tragen dabei weisse Gewänder und singen traditionelle Lieder. <br>
+Ein wichtiges kulturelles Konzept ist das Wort Lagom. Es bedeutet, dass alles in einem gesunden <br>
+Gleichgewicht sein sollte – also nicht zu viel und nicht zu wenig. Diese Einstellung beeinflusst <br>
+viele Bereiche des schwedischen Lebens. <br>
+
+</p>
+
+<h3 id="wirtschaft"> 9. Wirtschaft und Innovation</h3> 
+
+<p>
+Schweden gehört zu den wirtschaftlich stärksten Ländern Europas. <br>
+Besonders wichtig sind die Technologiebranche, die Industrie und die Modebranche. <br>
+Viele weltweit bekannte Unternehmen stammen aus Schweden. Dazu gehören unter anderem IKEA, <br>
+Volvo, Spotify und H&M. Diese Firmen haben Schweden international bekannt gemacht. <br>
+Das Land investiert viel Geld in Forschung und Innovation. Besonders im Bereich der <br>
+Umwelttechnologie nimmt Schweden eine führende Rolle ein. Viele Städte setzen stark auf <br>
+erneuerbare Energien und nachhaltige Lösungen. <br>
+
+</p>
+
+<h3 id="tourismus"> 10. Tourismus und Sehenswürdigkeiten</h3> 
+
+<p>
+Schweden ist ein beliebtes Reiseziel für Menschen, die Natur und Ruhe suchen. <br>
+Besonders bekannt ist die Hauptstadt Stockholm mit ihrer historischen Altstadt Gamla Stan. <br>
+Dort gibt es viele alte Gebäude, Museen und das Königsschloss. <br>
+Im Norden ist der Abisko Nationalpark ein beliebtes Ziel für Touristen, die Polarlichter <br>
+sehen möchten. Auch das berühmte Icehotel in Kiruna zieht viele Besucher an. Dieses Hotel <br>
+wird jedes Jahr neu aus Eis gebaut. <br>
+Die vielen Inseln vor Stockholm, die sogenannten Schären, sind ebenfalls sehr beliebt. <br>
+Dort kann man Boot fahren, wandern oder einfach die Natur geniessen. <br>
+
+</p>
+
+<h3 id="funfacts"> 11. Fun Facts</h3> 
+
+<p>
+<div class="funfacts-container">
+  <div class="funfact-box"><span class="funfact-emoji">🏝️</span>Schweden hat ca. 221.800 Inseln – das inselreichste Land der Welt</div>
+  <div class="funfact-box"><span class="funfact-emoji">🍔⛷️</span>Erster McDonald’s-Drive-In für Skifahrer in Schweden</div>
+  <div class="funfact-box"><span class="funfact-emoji">🌞</span>Mitternachtssonne im Norden: Sonne geht wochenlang nicht unter</div>
+  <div class="funfact-box"><span class="funfact-emoji">🌲</span>In Schweden gibt es mehr Bäume als Menschen</div>
+  <div class="funfact-box"><span class="funfact-emoji">⛺</span>Offizielles Recht auf Naturzugang („Allemansrätten“) – zelten & wandern erlaubt</div>
+  <div class="funfact-box"><span class="funfact-emoji">📚</span>Pippi Langstrumpf stammt aus Schweden</div>
+  <div class="funfact-box"><span class="funfact-emoji">🐱</span>In Schweden gibt es Hotels nur für Katzen</div>
+  <div class="funfact-box"><span class="funfact-emoji">☕</span>Schweden sind weltmeister im Kaffeetrinken</div>
+  <div class="funfact-box"><span class="funfact-emoji">🏠</span>Fast jeder Haushalt oder Betrieb in Schweden besitzt eine Sauna.</div>
+  <div class="funfact-box"><span class="funfact-emoji">🦌</span>In Schweden gibt es mehr Elche als in jedem anderen europäischen Land </div>
+
+</div>
+</p>
 
 </body>
 </html>
