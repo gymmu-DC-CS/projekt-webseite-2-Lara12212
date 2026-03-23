@@ -128,3 +128,20 @@ transition: transform 0.3s;
 .essen-gallery img:hover {
 transform: scale(1.1);
 }
+
+#topBtn{
+  position: fixed;      
+  bottom: 20px;         
+  right: 20px;          
+  padding: 10px 15px;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #0078d7;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+#topBtn:hover{
+  background-color: #005a9e;
+}
