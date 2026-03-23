@@ -1,4 +1,8 @@
 
+html{
+scroll-behavior:smooth;
+}
+
 body {
     background-color: #f2f2f2; 
     font-family: Arial, sans-serif; 
@@ -88,6 +92,14 @@ border-radius: 10px;
 box-shadow: 0 4px 6px rgba(0,0,0,0.15);
 transition: transform 0.3s, background-color 0.3s;
 font-weight: bold;
+}
+
+.funfact-box{
+transition:0.3s;
+}
+
+.funfact-box:hover{
+transform:scale(1.05);
 }
 
 .funfact-box:hover {
