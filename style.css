@@ -134,6 +134,13 @@ transition: transform 0.3s;
 transform: scale(1.1);
 }
 
+.essen-item p {
+  text-align: center;
+  font-size: 0.95em;
+  margin-top: 5px;
+  color: #333;
+}
+
 #topBtn{
   position: fixed;      
   bottom: 20px;         
