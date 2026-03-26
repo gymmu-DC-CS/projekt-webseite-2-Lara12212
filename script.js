@@ -1,33 +1,18 @@
-let links = document.querySelectorAll("ol a");
+document.querySelectorAll("a").forEach(link => {
 
-links.forEach(function(link){
+link.onclick = function(e){
 
-link.addEventListener("click", function(event){
+e.preventDefault();
 
-event.preventDefault();
-
-let ziel = document.querySelector(link.getAttribute("href"));
-
-if(ziel){
-
-ziel.scrollIntoView({
-behavior:"smooth"
-});
+document.querySelector(this.getAttribute("href"))
+.scrollIntoView({behavior:"smooth"});
 
 }
 
 });
 
-});
+document.getElementById("topBtn").onclick = function(){
 
-document.getElementById("topBtn").onclick=function(){
+window.scrollTo({top:0, behavior:"smooth"});
 
-window.scrollTo({
-
-top:0,
-
-behavior:"smooth"
-
-});
-
-}
+};
