@@ -84,4 +84,32 @@ Videos geholfen z.B die abgerundeten Ecken und dass es in der Mitte der Website 
 Ausserdem habe ich noch eine Reihe von 3 Bildern unterhalb des Textes über das Essen eingefügt. Diese Fotos dienen zur Visualisierung der drei Gerichte, die im Text erwähnt werden. Die Anordnung(alle 3 Bilder nebeneinander) habe ich wiederrum mit Chat Gpt gemacht. Die Beschreibung unterhalb der Bilder, habe ich selbstständig hinzugefügt, sodass man weiss um welches Gericht es sich dabei handelt. 
 
 
-Java Script Erläuterung:
+Erläuterung für Java Scripts:
+
+document.querySelectorAll("a").forEach(link => 
+
+--> Diese Zeile sucht alle Links (<a> Elemente) auf der Website und geht sie einzeln durch.
+
+link.onclick = function(e)
+
+--> Hier wird festgelegt, was passieren soll, wenn man auf einen Link klickt.
+
+e.preventDefault();
+
+--> Verhindert das normale Verhalten des Links (das sofortige Springen zum Ziel).
+
+document.querySelector(this.getAttribute("href"))
+
+--> Holt das Ziel des Links
+
+.scrollIntoView({behavior:"smooth"});
+
+--> Scrollt weich zu diesem Element.
+
+document.getElementById("topBtn").onclick = function(){
+
+--> Sucht den Button mit der ID topBtn und reagiert auf einen Klick.
+
+window.scrollTo({top:0, behavior:"smooth"});
+
+--> Scrollt die Seite weich zurück nach oben.
