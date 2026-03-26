@@ -84,6 +84,8 @@ Videos geholfen z.B die abgerundeten Ecken und dass es in der Mitte der Website 
 Ausserdem habe ich noch eine Reihe von 3 Bildern unterhalb des Textes über das Essen eingefügt. Diese Fotos dienen zur Visualisierung der drei Gerichte, die im Text erwähnt werden. Die Anordnung(alle 3 Bilder nebeneinander) habe ich wiederrum mit Chat Gpt gemacht. Die Beschreibung unterhalb der Bilder, habe ich selbstständig hinzugefügt, sodass man weiss um welches Gericht es sich dabei handelt. 
 
 
+
+
 Erläuterung für Java Scripts:
 
 document.querySelectorAll("a").forEach(link => 
@@ -106,7 +108,7 @@ document.querySelector(this.getAttribute("href"))
 
 --> Scrollt weich zu diesem Element.
 
-document.getElementById("topBtn").onclick = function(){
+document.getElementById("topBtn").onclick = function()
 
 --> Sucht den Button mit der ID topBtn und reagiert auf einen Klick.
 
