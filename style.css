@@ -80,6 +80,55 @@ border-radius:15px;
 box-shadow:0 4px 15px rgba(0,0,0,0.3);
 }
 
+.essen-gallery{
+display: flex;
+gap: 15px;
+overflow-x: auto;
+padding: 10px 0; 
+}
+
+.essen-gallery img {
+height: 165px; 
+border-radius: 15px;
+transition: transform 0.3s;
+}
+
+.essen-gallery img:hover { 
+transform: scale(1.1); 
+}
+
+.essen-item p {
+text-align: center; 
+font-size: 0.95em;
+margin-top: 5px; 
+color: #333;
+}
+
+.sehenswürdigkeiten {
+  display: flex;
+  gap: 25px;           
+  overflow-x: auto;    
+  padding: 10px 0;
+}
+
+.sehenswürdigkeiten img {
+  height: 165px;
+  border-radius: 15px;
+  transition: transform 0.3s;
+  flex: 0 0 auto;      
+}
+
+.sehenswürdigkeiten img:hover {
+  transform: scale(1.1); 
+}
+
+.sehen-item p {
+  text-align: center;
+  font-size: 0.95em;
+  margin-top: 5px;
+  color: #333;
+}
+
 .funfacts-container {
 display: grid;
 grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -115,29 +164,6 @@ font-size: 1.5em;
 margin-right: 8px;
 }
 
-.essen-gallery {
-display: flex;
-gap: 15px;
-overflow-x: auto;
-padding: 10px 0;
-}
-
-.essen-gallery img {
-height: 165px;
-border-radius: 15px;
-transition: transform 0.3s;
-}
-
-.essen-gallery img:hover {
-transform: scale(1.1);
-}
-
-.essen-item p {
-  text-align: center;
-  font-size: 0.95em;
-  margin-top: 5px;
-  color: #333;
-}
 
 #topBtn{
   position: fixed;      
@@ -156,27 +182,4 @@ transform: scale(1.1);
   background-color: #005a9e;
 }
 
-.sehenswürdigkeiten{
-display: flex;
-gap: 15px;
-overflow-x: auto;
-padding: 10px 0;
-}
-
-.sehenswürdigkeiten img {
-height: 165px;
-border-radius: 15px;
-transition: transform 0.3s;
-}
-
-.sehenswürdigkeiten:hover {
-transform: scale(1.1);
-}
-
-.sehen-item p {
-  text-align: center;
-  font-size: 0.95em;
-  margin-top: 5px;
-  color: #333;
-}
 
