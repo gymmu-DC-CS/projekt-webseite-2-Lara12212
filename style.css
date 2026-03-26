@@ -155,3 +155,28 @@ transform: scale(1.1);
 #topBtn:hover{
   background-color: #005a9e;
 }
+
+.sehenswürdigkeiten{
+display: flex;
+gap: 15px;
+overflow-x: auto;
+padding: 10px 0;
+}
+
+.sehenswürdigkeiten img {
+height: 165px;
+border-radius: 15px;
+transition: transform 0.3s;
+}
+
+.sehenswürdigkeiten:hover {
+transform: scale(1.1);
+}
+
+.sehen-item p {
+  text-align: center;
+  font-size: 0.95em;
+  margin-top: 5px;
+  color: #333;
+}
+
