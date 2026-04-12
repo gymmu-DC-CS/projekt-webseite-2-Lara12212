@@ -82,7 +82,7 @@ Zusätzlich habe ich die Schriftart noch geändert, sodass der Text besser lesba
 
 Wo ich Hilfe gefunden habe: 
 Quellen für den Text zum Klima:
- https://de.wikipedia.org/wiki/Schweden#Klima
+https://de.wikipedia.org/wiki/Schweden#Klima
 Den Code für die Tabelle habe ich von ChatGpt, da ich keine Ahnung hatte,
 wie man so etwas macht und ich keine geeigneten Tutorials gefunden habe.
 
@@ -97,7 +97,7 @@ Ich habe die Tabelle in den Farben von Schweden gestaltet und die Schriftart ge�
 
 15.03.2026:
 Was ich versucht habe zu tun:
-Alle restlichen Texte eingefügt. 
+Alle restlichen Texte eingefügt.
 Die Gestaltung der FunFacts geändert, sodass es attraktiver für Leser/innen ist.
 Danach habe ich ein Video über die schwedische Naturlandschaft eingefügt.
 Ausserdem habe ich noch eine Reihe von 3 Bildern unterhalb des Textes über das Essen eingefügt. Diese Fotos dienen zur Visualisierung der drei Gerichte, die im Text erwähnt werden.
@@ -155,7 +155,6 @@ Ich habe gelernt warum HTML, CSS und JavaScript getrennt werden sollten und wie 
 
 Wie ich es angepasst habe:
 Ich habe meinen CSS Code in style.css und JavaScript in script.js verschoben.
-
 
 23.03.2026:
 Was ich versucht habe zu tun:
