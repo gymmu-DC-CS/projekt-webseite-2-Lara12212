@@ -136,40 +136,31 @@ color: #333;
 }
 
 .funfacts-container {
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-gap: 15px;
-margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
 }
 
 .funfact-box {
-background-color: #666;
-color: #fff;
-padding: 15px;
-border-radius: 10px;
-box-shadow: 0 4px 6px rgba(0,0,0,0.15);
-transition: transform 0.3s, background-color 0.3s;
-font-weight: bold;
-}
-
-.funfact-box{
-transition:0.3s;
-}
-
-.funfact-box:hover{
-transform:scale(1.05);
+  background-color: #666;
+  color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+  font-weight: bold;
+  transition: transform 0.3s, background-color 0.3s;
 }
 
 .funfact-box:hover {
-transform: translateY(-5px);
-background-color: #888;
+  transform: translateY(-5px) scale(1.05);
+  background-color: #888;
 }
 
 .funfact-emoji {
-font-size: 1.5em;
-margin-right: 8px;
+  font-size: 1.5em;
+  margin-right: 8px;
 }
-
 
 #topBtn{
   position: fixed;      
