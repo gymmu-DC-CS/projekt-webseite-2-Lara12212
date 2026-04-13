@@ -46,8 +46,7 @@ Quellen für den Steckbrief:
 https://de.wikipedia.org/wiki/Schweden
 https://www.schwedenkonsulat.de/schweden/fakten-und-zahlen/
 https://sweden.se/life/society/key-facts-about-sweden
-Bild:
-https://www.istockphoto.com/photo/swedish-flag-gm649665310-118022553
+
 
 Was ich gelernt habe:
 Ich habe gelernt wie man Texte und Bilder mit HTML einfügt und wie man Inhalte sinnvoll anordnet.
@@ -58,7 +57,7 @@ Ich habe die Texte in passende Abschnitte eingefügt und eigene Bilder benutzt, 
 
 13.03.2026
 Was ich versucht habe zu tun:
-Ich habe zwei weitere Texte in die Website eingefügt. Zusätzlich habe ich noch zwei Bilder(Schweden Flagge/Natur)eingefügt und diese neben dem entsprechenden Text platziert.
+Ich habe zwei weitere Texte in die Website eingefügt. Zusätzlich habe ich noch ein Bild neben dem Steckbrief eingefügt. 
 
 Wo ich Hilfe gefunden habe: 
 Quellen für den Text zur Geschichte von Schweden:
@@ -68,6 +67,9 @@ Quellen für die Geographie und die Natur:
 https://sweden.se/nature
 https://de.wikipedia.org/wiki/Schweden#Geografie
 ChatGPT hat mir gezeigt wie man Bilder positionieren kann. 
+
+Quelle für das Bild zum Steckbrief:
+https://www.finnlines.com/de/reisetipp/mittsommer/
 
 Was ich gelernt habe:
 Ich habe gelernt wie man Bilder mit HTML einfügt und mit CSS deren Position verändern kann.
@@ -95,12 +97,12 @@ Was ich gelernt habe:
 Wie ich es angepasst habe:
 Ich habe die Tabelle in den Farben von Schweden gestaltet und die Schriftart geändert, damit die Website besser lesbar ist.
 
-15.03.2026:
+19.03.2026:
 Was ich versucht habe zu tun:
 Alle restlichen Texte eingefügt.
 Die Gestaltung der FunFacts geändert, sodass es attraktiver für Leser/innen ist.
 Danach habe ich ein Video über die schwedische Naturlandschaft eingefügt.
-Ausserdem habe ich noch eine Reihe von 3 Bildern unterhalb des Textes über das Essen eingefügt. Diese Fotos dienen zur Visualisierung der drei Gerichte, die im Text erwähnt werden.
+Ausserdem habe ich noch eine Reihe von 3 Bildern unterhalb des Textes über das Essen eingefügt und eine weitere Reihe von 3 Bildern unter dem Text zum Tourismus und zu den Sehenswürdigkeiten. Diese Fotos dienen zur Visualisierung der genannten Gerichte/Sehenswürdigkeiten in den Texten. 
 Beschreibung zu den drei Bildern hinzugefügt. 
 
 Wo ich Hilfe gefunden habe:
@@ -110,6 +112,11 @@ https://de.wikipedia.org/wiki/Demografie_Schwedens
 Quellen zum Text über das Essen/die Spezialitäten:
 https://visitsweden.de/aktivitaten/essen-trinken/schwedische-kuche/
 https://en.wikipedia.org/wiki/Coffee_in_Sweden
+Bilder: 
+https://www.thespruceeats.com/simple-homemade-gravlax-recipe-2216618
+https://www.kitchenstories.com/de/rezepte/schwedische-kottbullar-aus-sebastians-kindheit
+https://www.totallyswedish.com/
+https://ena.our-dogs.info/facts-f.html
 
 Quellen zum Text über die Kultur und Traditionen:
 https://de.wikipedia.org/wiki/Mittsommerfest
@@ -122,13 +129,17 @@ https://www.platformsweden.com/retail
 Quellen zum Text über den Tourismus und die Sehenswürdigkeiten:
 https://www.tourismus.de/europa/schweden/
 https://en.wikipedia.org/wiki/Stockholm
+Bilder:
+https://www.campervansweden.com/blog/travel-information/old-town-stockholm
+https://www.geo.de/reisen/reise-inspiration/abisko-nationalpark--schwedens-naturwunder_31662902-31662870.html
+
 
 Quellen von den FunFacts:
 https://www.schweden.pro/p/steckbrief-schweden.html
 https://hejsweden.com/wichtige-daten-und-fakten-uber-schweden/
 
 Diese Gestaltung der FunFacts wurde mit Hilfe von ChatGpt und mit eigenen Ideen umgesetzt.
-Diese Video stammt aus Youtube: https://www.youtube.com/watch?v=SC0ZGV6tJAM
+Das Video stammt aus Youtube: https://www.youtube.com/watch?v=SC0ZGV6tJAM
 Das Video habe ich selbst eingefügt, dennoch hat mir ChatGpt bei dem Layout des 
 Videos geholfen z.B die abgerundeten Ecken und dass es in der Mitte der Website steht.
 Die Anordnung(alle 3 Bilder nebeneinander) habe ich wiederrum mit Chat Gpt gemacht. Die Beschreibung unterhalb der Bilder, habe ich selbstständig hinzugefügt, sodass man weiss um welches Gericht es sich dabei handelt. 
@@ -221,11 +232,13 @@ Was ich versucht habe zu tun:
 Bilder zu den Traditionen schlussendlich weggelassen, da sie nicht gut mit dem Text aussahen.
 Unnötige Bilder gelöscht.
 Grösse der vorhandenen Bilder angepasst.
-Neues Bild bei den Allgemeinen Informationen eingefügt = passt besser zum Text.
+Bild bei den Allgemeinen Informationen eingefügt.
 README vervollständigt. 
 
 Wo ich Hilfe gefunden habe:
 Alles selber verbessert. 
+Quelle vom Bild für die Allgemeinen Informationen:
+https://www.nationsonline.org/oneworld/map/sweden-map.htm
 
 Was ich gelernt habe:
 Ich habe gelernt dass weniger Bilder manchmal besser aussehen und dass Design wichtig für die Lesbarkeit ist.
