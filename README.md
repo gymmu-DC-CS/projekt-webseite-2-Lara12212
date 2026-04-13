@@ -79,7 +79,7 @@ Ich habe Bilder neben den Text gesetzt, damit sie besser zum Inhalt passen
 
 15.03.2026:
 Was ich versucht habe zu tun:
-Text zum Klima eingefügt. Tabelle zum Klima eingefügt, sodass es besser übersichtlich ist. Danach habe ich noch mit Hilfe von CSS, die Tabelle farbig gestalten(blau und gelb = Farben von Schweden) und die Hintergrundfarbe der ganzen Website auf ein dunkelgrau festgelegt. 
+Text zum Klima eingefügt. Tabelle zum Klima eingefügt, sodass es besser übersichtlich ist. Danach habe ich noch mit Hilfe von CSS, die Tabelle farbig gestalten(blau und gelb = Farben von Schweden) und die Hintergrundfarbe der ganzen Website auf ein helles Grau festgelegt. 
 Zusätzlich habe ich die Schriftart noch geändert, sodass der Text besser lesbar ist.
 
 Wo ich Hilfe gefunden habe: 
