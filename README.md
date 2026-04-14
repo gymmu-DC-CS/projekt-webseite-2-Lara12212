@@ -97,7 +97,7 @@ Was ich gelernt habe:
 Wie ich es angepasst habe:
 Ich habe die Tabelle in den Farben von Schweden gestaltet und die Schriftart geändert, damit die Website besser lesbar ist.
 
-19.03.2026:
+16.03.2026:
 Was ich versucht habe zu tun:
 Alle restlichen Texte eingefügt.
 Die Gestaltung der FunFacts geändert, sodass es attraktiver für Leser/innen ist.
