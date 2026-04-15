@@ -153,7 +153,7 @@ color: #333;
 }
 
 .funfact-box:hover {
-  transform: translateY(-5px) scale(1.05);
+  transform: scale(1.05);
   background-color: #888;
 }
 
